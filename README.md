@@ -86,6 +86,15 @@ Terminal 1: Start the Backend Server
 Terminal 2: Start the Frontend App
 
 📂 Project Structure
+study_notion/
+│
+├── src/                # Frontend (React components, pages, styles)
+├── server/             # Backend (Node.js, Express routes, models, controllers)
+├── public/             # Static files
+├── .env.example        # Environment variables reference template
+├── package.json        # Project metadata and dependencies
+└── README.md           # Project documentation
+
 📌 Notes:
 
 The .env file is intentionally excluded from GitHub for security reasons. Always create your own .env file before running the application.
@@ -93,7 +102,7 @@ The .env file is intentionally excluded from GitHub for security reasons. Always
 The node_modules folders are not included to keep the repository lightweight. Running npm install generates these locally.
 
 👩‍💻 Author
-Ruchi Yadav GitHub: 
+Ruchi Yadav GitHub: RuchiYadav2006
 
 ⭐ Support
 If you found this project helpful, learned something new, or used it as a reference, please consider giving it a ⭐ on GitHub!
